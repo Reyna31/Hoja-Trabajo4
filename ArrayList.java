@@ -3,7 +3,6 @@
     @Version 26/02/2020
 
  */
-
 import java.util.ArrayList;
 
 public class ArrayList<T> extends APila<T> implements IPila<T> {
@@ -22,7 +21,6 @@ public class ArrayList<T> extends APila<T> implements IPila<T> {
         return pila.get(pila.size()-1);
     }
 
-    @Override
     public int size() {
         return pila.size();
     }
